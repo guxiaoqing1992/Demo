@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp
+        widget.cpp \
+    mythread.cpp
 
-HEADERS  += widget.h
+HEADERS  += widget.h \
+    mythread.h
 
 FORMS    += widget.ui
